@@ -23,7 +23,7 @@
 }
 
 .note .input-field:focus {
-	background-color: white !important;
+	background-color: #f5f5f5 !important;
 }
 
 .note .checkbox {
