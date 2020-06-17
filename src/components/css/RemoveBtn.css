@@ -1,0 +1,24 @@
+.removeBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.removeBtn {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 28px;
+    color: #eeeeee;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.removeBtn:hover {
+    background-color: #e0e0e0;
+}
+
+.removeBtn:active {
+    background-color: #bdbdbd;
+    transition: 0s;
+}

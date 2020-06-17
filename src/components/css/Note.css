@@ -1,0 +1,26 @@
+.note {
+    padding: 20px;
+    background-color: #eeeeee;
+    border-bottom: solid 1px #e0e0e0;
+    display: flex;
+    align-items: center;
+}
+
+.note:last-child {
+    border: none;
+}
+
+.note .input-field{
+    background: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.note .checkbox {
+    margin-left: auto;
+}
+
+
+
