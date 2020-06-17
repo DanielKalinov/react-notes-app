@@ -1,26 +1,33 @@
 .note {
-    padding: 20px;
-    background-color: #eeeeee;
-    border-bottom: solid 1px #e0e0e0;
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: #eeeeee;
+	border-bottom: solid 1px #e0e0e0;
 }
 
 .note:last-child {
-    border: none;
+	border: none;
 }
 
-.note .input-field{
-    background: none;
-    font-size: 16px;
-    color: black;
-    font-weight: bold;
-    border: none;
+.note .input-field {
+	padding: 10px;
+	background: none;
+	font-size: 16px;
+	color: #424242;
+	font-weight: bold;
+	border: none;
+	transition: background-color 0.4s;
+	border-radius: 4px;
+	outline: none;
+}
+
+.note .input-field:focus {
+	background-color: white !important;
 }
 
 .note .checkbox {
-    margin-left: auto;
+	height: 20px;
+	width: 20px;
+	margin-left: auto;
 }
-
-
-
